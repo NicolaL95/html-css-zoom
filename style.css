@@ -82,7 +82,7 @@ padding: 0 15px;
 .container_users img{
     padding: 0 6px 6px 0;
     height: 175px;
-    width: 360px;
+    width: 353px;
 }
 
 .container_upper{
@@ -96,7 +96,7 @@ padding: 0 15px;
 }
 
 .arrow_format{
-    font-size: 2rem;
+    font-size: 3.7rem;
 }
 
 .left_arrow, .right_arrow{
@@ -106,12 +106,12 @@ padding: 0 15px;
 }
 
 .left_arrow{
-    margin-left: 10px;
+    margin-left: 20px;
 }
     
 
 .right_arrow{
-    margin-right: 10px;
+    margin-right: 20px;
     }
 
 /* FOOTER */
@@ -123,7 +123,6 @@ padding: 0 15px;
     justify-content: space-between;
     align-items: center;
     color: #DCDCDC;
-    padding: 10px;
 }
 
 .configuration > div, .video_options > div{
@@ -140,15 +139,20 @@ padding: 0 15px;
 .video_options{
     display: flex;
     align-items: center;
+     padding: 10px;
 }
 .configuration{
     display: flex;
     align-items: center;
+     padding: 10px;
 }
 
 .end_meeting{
-    background-color: #494A4B;
+  background-color: #494A4B;
     color: #F45450;
+    height: 72px;
+    position: relative;
+    width: 115px;
 }
 
 .mute_arrow{
@@ -157,10 +161,6 @@ margin: 0 20px 0 0px;
 
 .video_arrow{
     margin-left: -10px;
-}
-
-.show_menu{
-    margin-bottom: 10px;
 }
 
 .n_partecipants{
@@ -179,4 +179,29 @@ margin: 0 20px 0 0px;
 
 .share_screen_icon{
     color: #51C623;
+}
+
+.share_screen_menu{
+    margin: 0 35px 0 -20px;
+}
+
+.record{
+    position: relative;
+}
+
+.record_icon{
+    position: absolute;
+    right: 5%;
+    top: 37%;
+    font-size: 0.7rem;
+}
+
+.ed_text{
+      position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: -12px;
+    width: 88px;
+    cursor: pointer;
 }
