@@ -13,6 +13,7 @@ clear: both;
 
 body{
     background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* COLORING */
@@ -69,16 +70,17 @@ padding: 0 15px;
 
 .container_main{
     display: flex;
+    margin-bottom: 70px;
 }
 
 .container_users{
     display: flex;
     flex-wrap:wrap;
-    padding-left: 25px;
+    padding-left: 20px;
 }
 
 .container_users img{
-    padding: 0 5px 5px 0;
+    padding: 0 6px 6px 0;
     height: 175px;
     width: 360px;
 }
@@ -96,6 +98,21 @@ padding: 0 15px;
 .arrow_format{
     font-size: 2rem;
 }
+
+.left_arrow, .right_arrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left_arrow{
+    margin-left: 10px;
+}
+    
+
+.right_arrow{
+    margin-right: 10px;
+    }
 
 /* FOOTER */
 
@@ -117,9 +134,31 @@ padding: 0 15px;
 
 .icon_format{
     font-size: 1.8rem;
+        margin-bottom: 5px;
+}
+
+.video_options{
+    display: flex;
+    align-items: center;
+}
+.configuration{
+    display: flex;
+    align-items: center;
 }
 
 .end_meeting{
     background-color: #494A4B;
     color: #F45450;
+}
+
+.mute_arrow{
+margin: 0 20px 0 0px;
+}
+
+.video_arrow{
+    margin-left: -10px;
+}
+
+.show_menu{
+    margin-bottom: 10px;
 }
