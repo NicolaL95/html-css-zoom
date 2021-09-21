@@ -162,3 +162,21 @@ margin: 0 20px 0 0px;
 .show_menu{
     margin-bottom: 10px;
 }
+
+.n_partecipants{
+      position: absolute;
+    right: 21%;
+    top: -2%;
+}
+
+.partecipants{
+    position: relative;
+}
+
+.rotate_icon{
+    transform: rotate(270deg);
+}
+
+.share_screen_icon{
+    color: #51C623;
+}
